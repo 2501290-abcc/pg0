@@ -1,17 +1,23 @@
 body{
-    margin:0;
-    background-color: #4d648d;
-    color:#ffffff;
+    margin-top:72px;
+    background-color: #fdfdfd;
+    color:#473927;
 }
 header{
-    background-color: #1e1f26;
+    width:100%;
+    background-color: #fdfdfd;
     padding:20px;
+    position:fixed;
+    top:0%;
+    box-shadow:0 3px 6px rgba(0,0,0,0.05);
 }
 header a{
     text-decoration: none;
-    color:#d0e1f9;
+    color:#473927;
     margin-right: 20px;
     text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 nav{
     text-align: center;
@@ -19,14 +25,80 @@ nav{
     justify-content: space-around;
 }
 header a:hover{
-    background-color: #d0e1f9;
-    color:#1e1f26;
+    text-decoration: underline 3px;
+    text-decoration-color: #007a02;
+    text-underline-offset: 10px;
     padding-right: 20px;
     padding-left: 20px;
 }
 header b{
     font-size: 20px;
 }
-.content{
-    
+.content_m{
+    width:60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.game{
+    width:60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#home{
+    display:flex;
+    margin-right: auto;
+    margin-left: auto;
+    width:60%;
+}
+.content_home_name{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.content_home img{
+    background-color: #ffffff;
+    border:10px double #007a02;
+    width:80%;
+    margin-left: 70px;    
+}
+h1{
+    text-decoration: underline dotted;
+    text-decoration-color: #007a02;
+    text-underline-offset: 10px;
+}
+.content_m iframe{
+    width:100%;
+}
+.manga{
+    width:70%;
+    margin-right:auto;
+    margin-left: auto;
+}
+.manga img{
+    width:30%;
+    margin-right: 20px;
+}
+.name{
+    display: flex;
+}
+h2{
+    text-decoration: underline 3px;
+    text-decoration-color: #007a02;
+    text-underline-offset: 10px;
+}
+.movie{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+table iframe{
+    width:100%
+}
+.movie img{
+    width:80%;
+    margin-right: 40px;
+}
+.hoby{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
 }
